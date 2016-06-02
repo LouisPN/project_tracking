@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("default.css");
+#logo{
+	width:67px;
+	height:67px;
+	float:left;
+	padding:20px 0 0 0;
+}
+#title1{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:55px;
+	float:right;
+	color:#FFF;
+	background:#ff8079;
+	margin:20px 0 0 100px;
+	padding:0 8px;
+}
+#title2{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:55px;
+	float:right;
+	color:#FFF;
+	background:#ff8079;
+	margin:2px 0 0 0;
+	padding:0 8px;
+}
+#box-step{
+	width:738px;
+	height:90px;
+	float:left;
+	background:url(../images/fundamental/bg-step.jpg) no-repeat 0 0;
+	margin:8px 0 0 0;
+}
+#box-step ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+}
+#box-step li.start a{
+	width:124px;
+	height:92px;
+	float:left;
+	background:url(../images/fundamental/step-start.png) no-repeat 0 0;
+	position:absolute;
+	z-index:8;
+}
+#box-step li.start a:hover{
+	background:url(../images/fundamental/step-start.png) no-repeat 0 0;
+}
+#box-step li.start a.active{
+	background:url(../images/fundamental/step-start-o.png) no-repeat 0 0;
+}
+#box-step li.first a{
+	width:115px;
+	height:92px;
+	float:left;
+	background:url(../images/fundamental/step-first.png) no-repeat 0 0;
+	position:absolute;
+	z-index:7;
+	left:99px;
+}
+#box-step li.first a:hover{
+	background:url(../images/fundamental/step-first-o.png) no-repeat 0 0;
+}
+#box-step li.first a.active{
+	background:url(../images/fundamental/step-first-a.png) no-repeat 0 0;
+}
+#box-step li.second a{
+	width:115px;
+	height:92px;
+	float:left;
+	background:url(../images/fundamental/step-second.png) no-repeat 0 0;
+	position:absolute;
+	z-index:6;
+	left:189px;
+}
+#box-step li.second a:hover{
+	background:url(../images/fundamental/step-second-o.png) no-repeat 0 0;
+}
+#box-step li.second a.active{
+	background:url(../images/fundamental/step-second-a.png) no-repeat 0 0;
+}
+#box-step li.third a{
+	width:115px;
+	height:92px;
+	float:left;
+	background:url(../images/fundamental/step-third.png) no-repeat 0 0;
+	position:absolute;
+	z-index:5;
+	left:279px;
+}
+#box-step li.third a:hover{
+	background:url(../images/fundamental/step-third-o.png) no-repeat 0 0;
+}
+#box-step li.third a.active{
+	background:url(../images/fundamental/step-third-a.png) no-repeat 0 0;
+}
+#box-step li.fourth a{
+	width:115px;
+	height:92px;
+	float:left;
+	background:url(../images/fundamental/step-fourth.png) no-repeat 0 0;
+	position:absolute;
+	z-index:4;
+	left:369px;
+}
+#box-step li.fourth a:hover{
+	background:url(../images/fundamental/step-fourth-o.png) no-repeat 0 0;
+}
+#box-step li.fourth a.active{
+	background:url(../images/fundamental/step-fourth-a.png) no-repeat 0 0;
+}
+#box-step li.fifth a{
+	width:115px;
+	height:92px;
+	float:left;
+	background:url(../images/fundamental/step-fifth.png) no-repeat 0 0;
+	position:absolute;
+	z-index:3;
+	left:459px;
+}
+#box-step li.fifth a:hover{
+	background:url(../images/fundamental/step-fifth-o.png) no-repeat 0 0;
+}
+#box-step li.fifth a.active{
+	background:url(../images/fundamental/step-fifth-a.png) no-repeat 0 0;
+}
+#box-step li.sixth a{
+	width:115px;
+	height:92px;
+	float:left;
+	background:url(../images/fundamental/step-sixth.png) no-repeat 0 0;
+	position:absolute;
+	z-index:2;
+	left:549px;
+}
+#box-step li.sixth a:hover{
+	background:url(../images/fundamental/step-sixth-o.png) no-repeat 0 0;
+}
+#box-step li.sixth a.active{
+	background:url(../images/fundamental/step-sixth-a.png) no-repeat 0 0;
+}
+#box-step li.seventh a{
+	width:103px;
+	height:92px;
+	float:left;
+	background:url(../images/fundamental/step-seventh.png) no-repeat 0 0;
+	position:absolute;	
+	z-index:1;
+	left:638px;
+}
+#box-step li.seventh a:hover{
+	background:url(../images/fundamental/step-seventh-o.png) no-repeat 0 0;
+}
+#box-step li.seventh a.active{
+	background:url(../images/fundamental/step-seventh-a.png) no-repeat 0 0;
+}
+/*#box-step li:first-child{
+	/*width:120px;
+	margin:0;
+	padding:0 0 0 0;
+	float:left;
+	background:none;*/
+	/*width:67px;
+	height:71px;
+	margin:2px 0 2px 2px;
+	padding:13px 12px 2px 33px;
+	float:left;
+	color:#656464;
+	text-align:left;
+	background:#1ab2c5;*/
+	/*background:url(../images/fundamental/bg-shadow.png) #1ab2c5 no-repeat 84px 0;*/
+/*}*/
+/*#box-step li{
+	width:41px;
+	height:85px;
+	margin:2px 0 2px 0;
+	padding:1px 12px 0 40px;
+	float:left;
+	color:#656464;
+	text-align:left;
+	background:url(../images/fundamental/bg-shadow.png) no-repeat 0 0;
+}*/
+/*#box-step li.hightlight{
+	width:66px;
+	height:85px;
+	margin:2px 0 2px 0;
+	padding:1px 12px 0 12px;
+	float:left;
+	color:#656464;
+	text-align:left;
+	background:url(../images/fundamental/bg-shadow-green.png) #1ab2c5 no-repeat 0 0;
+}*/
+/*#box-step li.lock{
+	width:66px;
+	height:85px;
+	margin:2px 0 2px 0;
+	padding:1px 12px 0 12px;
+	float:left;
+	color:#656464;
+	text-align:left;
+	background:url(../images/fundamental/bg-shadow.png) #ff8079 no-repeat 60px 0;
+}*/
+/*#box-step li:last-child{	
+	margin:0;
+	padding:3px 0 0 12px;
+	float:left;
+	color:#656464;
+	text-align:left;
+	background:none;
+}*/
+#box-language{
+	width:738px;
+	margin:0 auto;
+	padding:70px 0 70px 0;
+	text-align:center;
+	float:left;
+}
+#box-language ul{
+	width:450px;
+	margin:0 auto;
+	padding:98px 0 0 0;
+	list-style:none;
+}
+#box-language li{
+	margin:0;
+	padding:0 27px;
+	float:left;
+}
+#box-language li a{
+	float:left;
+}
+#box-language li a.th{
+	width:171px;
+	height:142px;
+	float:left;
+	background:url(../images/fundamental/nav-thai.jpg) no-repeat 0 0;
+}
+#box-language li a.th:hover{
+	background:url(../images/fundamental/nav-thai-o.jpg) no-repeat 0 0;
+}
+#box-language li a.en{
+	width:171px;
+	height:142px;
+	float:left;
+	background:url(../images/fundamental/nav-eng.jpg) no-repeat 0 0;
+}
+#box-language li a.en:hover{
+	background:url(../images/fundamental/nav-eng-o.jpg) no-repeat 0 0;
+}
+#box-copyright{
+	width:738px;
+	background:url(../images/shared/dot.gif) repeat-x 0 0;
+	float:left;
+	margin:20px 0 0 0;
+}
+/**************************************************/
+#box-vdo{
+	width:738px;
+	float:left;
+}
+#box-vdo .subject{
+	width:609px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:35px;
+	color:#000;
+	float:left;
+	padding:80px 0 0 0;
+	line-height:1;
+}
+#box-vdo .number{
+	width:129px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:180px;
+	color:#1ab1c4;
+	float:left;
+	line-height:0;
+	text-align:right;
+	padding:16px 0 0 0;
+}
+#box-vdo .youtube{
+	margin:0;
+	padding:8px 0 0 0;
+	float:left;
+}
+#box-vdo .subtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 23px 10px 0 0;
+	float: left;
+}
+#box-vdo .icon-language {
+	padding:22px 0 0 0;
+	float:left;
+}
+/************************************************/
+.smalltext{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size : 12px;
+	
+}
+.midtext{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size : 30px;
+}

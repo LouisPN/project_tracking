@@ -1,0 +1,402 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("default.css");
+/*.bgRegister {
+	background: url(../images/register/bg-register.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
+.wrapRegister {
+	font-family: "Arial";
+	font-size: 14px;
+	width: 360px;
+	margin: 0 auto;
+	padding: 0 10px;
+	color: #666;
+	clear: both;
+}
+.wrapRegister.effect{
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-160px;
+	z-index:2;
+}
+.wrapRegister.padBtm {
+	margin: 0 auto 100px;
+}
+.wrapRegister a {
+	color: #ff8079;
+}
+.wrapRegister a:hover {
+	color: #000;
+}
+.logoCenter {
+	width: 100%;
+	padding: 66px 0 100px 0;
+	text-align: center;
+	clear: both;
+}
+span {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	color: #000;
+	padding: 0 0 10px 15px;
+	float: left;
+}
+.signin {
+	padding: 5px 15px 0 0;
+	float: right;
+}
+.box-form {
+	position: relative;
+}
+.box-form label {
+	position: absolute;
+	color: #666;
+	font-size: 14px;
+	font-weight: normal;
+	top: 15px;
+	left: 27px;
+	z-index: 99;
+}
+input[type="text"], input[type="password"] {
+	width: 100%;
+	height: 47px;
+	border: none;
+	border-radius: 25px;
+	background: #f5f5f5;
+	padding: 0 27px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #666;
+	border: #e8e5e0 solid 1px;
+	box-sizing: border-box;
+}
+input {
+	width: 100%;
+	height: 47px;
+	border-radius: 25px;
+	background: #f5f5f5;
+	padding: 0 27px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #666;
+	border: #e8e5e0 solid 1px;
+	box-sizing: border-box;
+}
+.select-style {
+	padding: 0;
+	margin: 0;
+	border: 1px solid #e8e5e0;
+	width: 100%;
+	height: 47px;
+	border-radius: 25px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	background: #f5f5f5 url(../images/register/arrowdown.gif) no-repeat 90% 50%;
+}
+.select-style select {
+	font-family: Arial;
+	font-size: 14px;
+	color: #666;
+	padding: 13px 27px;
+ *padding: 10px 27px;
+	width: 130%;
+	height: 47px;
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+	background-image: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+input:focus, select:focus {
+	outline: none;
+}
+.agree {
+	margin: 0 0 0 15px;
+	padding: 10px 0 0 0;
+	float: left;
+}
+input[type=checkbox].css-checkbox {
+	position: absolute;
+	z-index: -1000;
+	left: -1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+input[type=checkbox].css-checkbox + label.css-label {
+	padding-left: 21px;
+	height: 16px;
+	display: inline-block;
+	line-height: 16px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 16px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -16px;
+}
+label.css-label {
+	background-image: url(../images/register/csscheckbox.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.btn-create a {
+	width: 53px;
+	padding: 9px 27px;
+	margin: 0 15px 0 0;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 25px;
+	background: #ff8079;
+	float: right;
+}
+.btn-create a:hover {
+	color: #fff;
+	background: #000;
+}
+.btn-submit a {
+	width: 53px;
+	padding: 9px 27px;
+	margin: 0 15px 0 0;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 25px;
+	background: #ff8079;
+	float: right;
+}
+.btn-submit a:hover {
+	color: #fff;
+	background: #000;
+}
+/**************************** LOGIN ********************************/
+/*.bgLogin {
+	background: url(../images/register/bg-login.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
+.btn-login a {
+	padding: 9px 37px;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 25px;
+	background: #ff8079;
+	clear: both;
+}
+.btn-login a:hover {
+	color: #fff;
+	background: #000;
+}
+.wrapRegister p a {
+	font-size: 12px;
+	color: #fff;
+}
+.wrapRegister p a:hover {
+	color: #000;
+}
+/**************************** TROPHY ********************************/
+.img-radius {
+	border-radius: 40px;
+}
+h1 {
+	width: 100%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	color: #ff8079;
+	float: left;
+}
+h2 {
+	margin: 15px 0 0 0;
+}
+#test {
+	width:600px;
+	height:600px;
+	background: url(../images/trophy/effect.png) no-repeat center center;
+	position:relative;
+	left:50%;
+	margin-top:30px;
+	margin-left:-270px;
+	z-index:1;
+}
+
+@media (max-width:767px) {
+.logoCenter {
+	padding: 66px 0 20px 0;
+}
+.wrapRegister {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+}
+/* rotating Safari and Chrome */ 
+@-webkit-keyframes rotating{
+ from {
+ -ms-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ -webkit-transform: rotate(0deg);
+ -o-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -ms-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -webkit-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+@keyframes rotating {
+ from {
+ -ms-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ -webkit-transform: rotate(0deg);
+ -o-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ to {
+ -ms-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -webkit-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+.rotating {
+	-webkit-animation: rotating 10s linear infinite;
+	-moz-animation: rotating 10s linear infinite;
+	-ms-animation: rotating 10s linear infinite;
+	-o-animation: rotating 10s linear infinite;
+	animation: rotating 10s linear infinite;
+}
+
+/* scaling safari and Chrome */ 
+@-webkit-keyframes scaling {
+ from {
+ -ms-transform: scale(0);
+ -moz-transform: scale(0);
+ -webkit-transform: scale(0);
+ -o-transform: scale(0);
+ transform: scale(0)
+}
+ to {
+ -ms-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ transform: scale(1.1);
+}
+}
+
+@-webkit-keyframes scaling {
+     0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(0.5);
+    }
+    70% {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.2);
+    }
+		100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+} 
+.scaling{
+		-webkit-animation: scaling 1s;
+    -webkit-animation-iteration-count: 1;
+}
+
+
+/* 
+Recaptcha Style Captcha 
+=======================
+ re-Captcha Style Captcha with php and jQuery 
+ 
+ Created By: Zeeshan Rasool 
+ URL : http://www.99Points.info 
+ 
+ Get JQuery, PHP, AJAX, Codeigniter and MYSQL Tutorials and Demos on Blog
+ */
+ /*
+#captcha-wrap{
+	border:solid #870500 1px;
+	width:97%;
+	-webkit-border-radius: 10px;
+	float:left;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background:#870500;
+	text-align:left;
+	padding:3px;
+	margin-top:3px;
+	height:125px;
+}
+#captcha-wrap .captcha-box{
+	-webkit-border-radius: 7px;
+	background:#fff;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	text-align:center;
+	border:solid #fff 1px;
+	margin:4px;
+}
+#captcha-wrap .text-box{
+	-webkit-border-radius: 7px;
+	background:#ffdc73;
+	-moz-border-radius: 7px;
+	width:190px;
+	height:55px;
+	float:left;
+	margin:4px;
+	border-radius: 7px;
+	text-align:center;
+	border:solid #ffdc73 1px;
+}
+ 
+#captcha-wrap .text-box input{ width:180px;height:25px;margin-top:5px;}
+#captcha-wrap .text-box label{
+	 color:#000000;
+	 font-family: helvetica,sans-serif;
+	 font-size:12px;	
+	 width:150px;
+	 padding-top:3px; 
+	 padding-bottom:3px; 
+}
+#captcha-wrap .captcha-action{
+	float:right; width:117px; 
+	background:url(../images/shared/logos.jpg) top right no-repeat; 
+	height:44px; margin-top:3px;
+}
+#captcha-wrap  img#captcha-refresh{
+	margin-top:9px;
+	border:solid #333333 1px;
+	margin-right:6px;
+	cursor:pointer;
+}
+*/

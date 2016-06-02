@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("default.css");
+section{
+	width:728px;
+	padding:0 0 30px;
+	margin-left:10px;
+	background: url(../images/shared/dot.gif) repeat-x 0 bottom;
+	float:left;	
+}
+section.nobg{
+	background:none !important;
+}
+#box-account {
+	width: 100%;
+	padding: 20px 0 35px 0;
+	float: left;
+}
+#box-account .box {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-bottom: #000 solid 4px;
+	float: left;
+}
+#box-account span {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	color: #ff8079;
+	float: left;
+}
+#box-profile{
+	width:50%;	
+	float:left;
+}
+#box-profile .title{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	color:#000;
+	margin:0 0 20px 0;
+	clear:both;
+}
+#box-profile .name{
+	font-family: tahoma;
+	font-size:14px;
+	padding:0;
+	margin:0 0 20px 0;
+	color:#000;	
+	float:left;
+}
+#box-profile .change a{
+	font-family: tahoma;
+	font-size:12px;
+	padding:0 20px;
+	color:#ff8079;
+}
+#box-profile .change a:hover{
+	color:#000;
+}
+#box-profile p{
+	font-family: Arial;
+	font-size:12px;
+	padding:0;
+	margin:0 0 5px;
+	color:#999;
+	word-wrap:break-word;
+	clear:both;
+}
+#box-profile p + p{
+	padding:0;
+	margin:0 0 20px 0;
+	color:#000;
+	word-wrap:break-word;
+	clear:both;
+}
+#box-upload{
+	width:15%;
+	padding:40px 0 0 0;
+	float:left;
+}
+#box-upload .upload{
+	float:left;
+}
+.img-radius{
+	border-radius:40px;
+}
+#box-photo{
+	width:35%;
+	padding:50px 0 0 0;
+	float:left;
+}
+#box-photo p{
+	font-family: Arial;
+	font-size:12px;
+	padding:0;
+	margin:0 0 5px;
+	color:#999;
+	clear:both;
+}
+#box-photo .change a{
+	font-family: tahoma;
+	font-size:12px;
+	padding:0;
+	color:#ff8079;
+}
+#box-photo .change a:hover{
+	color:#000;
+}
+#box-upgrade{
+	float:left;
+}
+#box-upgrade .title{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	color:#000;
+	margin:40px 0 20px 0;
+	clear:both;
+}
+#box-upgrade p{
+	font-family: Arial;
+	font-size:12px;
+	padding:0;
+	margin:0 0 15px;
+	color:#000;
+	clear:both;
+}
+#box-upgrade .btnUpgrade a{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	color:#fff;
+	padding:10px 25px;
+	margin:10px 0 20px;
+	background:#ff8079;
+	border-radius:20px;
+	float:left;
+}
+#box-upgrade .btnUpgrade a:hover{
+	background:#000;
+}
+#box-prefer{
+	float:left;
+}
+#box-prefer .title{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	color:#000;
+	margin:40px 0 20px 0;
+	clear:both;
+}
+#box-prefer p{
+	font-family: Arial;
+	font-size:12px;
+	padding:0;
+	margin:0 0 15px;
+	color:#999;
+	clear:both;
+}
+table{
+	table-layout:fixed;
+}
+tr, td{
+	word-wrap:break-word;
+}

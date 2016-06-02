@@ -1,0 +1,470 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("default.css");
+#status {
+	width: 100%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ff8079;
+	padding: 10px 0 0 0;
+	float: left;
+	border-bottom: #000 solid 5px;
+}
+#status ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#status li {
+	margin: 0;
+	padding: 0 5px;
+	float: left;
+}
+#status a {
+	text-decoration: none;
+	color: #000;
+}
+#status a:hover {
+	text-decoration: underline;
+}
+#banner-main {
+	width:482px;
+	height:365px;
+	padding: 20px 20px 0 0;
+	float: left;
+	position:relative;
+}
+#banner-main #watermark{
+	width:48px;
+	height:48px;
+	position:absolute;
+	z-index:500;
+	top:33px;
+	left:28px;	
+}
+#box-comment{
+	width:236px;
+	height:204px;
+	float:left;
+	padding: 20px 0 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border-bottom:#000 solid 4px;
+}
+#box-weekly{
+	width:236px;
+	float:left;
+}
+#box-weekly span{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+}
+#box-weekly ul{
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:11px 0 0 0;
+}
+#box-weekly li{
+	width:236px;
+	height:63px;
+	margin:0;
+	padding:15px 0 0 0;
+	background:url(../images/shared/dot.gif) repeat-x bottom;
+}
+#box-weekly li .tmb{
+	width:62px;
+	height:47px;
+	float:left;
+}
+#box-weekly li .txt{
+	width:164px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	float:left;
+	padding:0 0 0 10px;
+}
+.btn-viewall a{
+	width:80px;
+	height:24px;
+	float:right;
+	background:url(../images/shared/btn-view-all.jpg) no-repeat 0 0;
+}
+.btn-viewall a:hover{
+	width:80px;
+	height:24px;
+	float:right;
+	background:url(../images/shared/btn-view-all-o.jpg) no-repeat 0 0;
+}
+#box-answer{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin:45px 0 0 0;
+	float:left;
+}
+#box-language{
+	width:100%;
+	height:auto;
+	float:left;	
+	border-top:#000 solid 4px;
+}
+#box-language ul{
+	margin:0;
+	padding:8px 0 50px 0;
+	list-style:none;
+	float:left;
+}
+#box-language ul li.iconAll{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-all.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconEN{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-eng.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconTH{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-thai.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconES{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-es.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconKR{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-kr.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconCN{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-cn.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconJP{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-jp.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconVN{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-vn.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconPH{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-ph.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconID{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-id.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconMY{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-my.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconIN{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-in.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconDE{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-de.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li.iconRU{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-ru.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-language ul li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	float:left;
+	color:#000;
+	text-decoration:none;
+	padding:0 0 0 19px;
+}
+#box-language ul li a:hover{
+	color: #000;
+	text-decoration:underline;
+}
+#box-tmb-video{
+	height:auto;
+	float:left;
+	position:relative;
+}
+#box-tmb-video .catagory{
+	width:100%;
+	padding:1px 0 0 0;
+	margin:10px 0 0 0;
+	float:left;
+	position:relative;
+	background:url(../images/shared/dot.gif) repeat-x 0 0;
+}
+/*#box-tmb-video .title{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	padding:3px 5px;
+	background-color:#000;
+	color:#FFF;
+	float:left;
+}*/
+#box-tmb-video .title{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 18px;	
+	background-color:#000;
+	color:#FFF;
+	position:absolute;
+	z-index:99;
+	top:4px;
+}
+#box-tmb-video .title a{
+	padding:3px 5px;
+	background-color:#000;
+	color:#FFF;
+}
+#box-tmb-video .title a:hover{
+	padding:3px 5px;
+	background-color:#FF8079;
+	color:#FFF;	
+}
+#box-tmb-video .page{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	position: absolute;
+	z-index: 99;
+	text-align: right;
+	right: 64px;
+	top: 15px;
+}
+#box-tmb-video ul li img{
+	border-bottom:#000 solid 6px;
+}
+#box-tmb-video ul li a{
+	text-decoration:none;
+	color:#000;
+}
+#box-tmb-video ul li:hover{
+	background-color:#57d2e1;
+	cursor:pointer;
+}
+#box-tmb-video ul li ul{
+	width:177px;
+	height:auto;
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#box-tmb-video ul li ul li.iconEN{
+	width:16px;
+	height:11px;
+	background:url(../images/shared/icon-eng.jpg) no-repeat 0 0;
+	margin:10px 0 0 10px;
+	float:left;
+}
+#box-tmb-video ul li ul li.iconTH{
+	width:16px;
+	height:11px;
+	background:url(../images/shared/icon-thai.jpg) no-repeat 0 0;
+	margin:10px 0 0 10px;
+	float:left;
+}
+#box-tmb-video ul li ul li.iconES{
+	width:16px;
+	height:11px;
+	background:url(../images/shared/icon-es.jpg) no-repeat 0 0;
+	margin:10px 0 0 10px;
+	float:left;
+}
+#box-tmb-video ul li ul li.iconKR{
+	width:16px;
+	height:11px;
+	background:url(../images/shared/icon-kr.jpg) no-repeat 0 0;
+	margin:10px 0 0 10px;
+	float:left;
+}
+#box-tmb-video ul li ul li.iconCN{
+	width:16px;
+	height:11px;
+	background:url(../images/shared/icon-cn.jpg) no-repeat 0 0;
+	margin:10px 0 0 10px;
+	float:left;
+}
+#box-tmb-video ul li ul li.iconJP{
+	width:16px;
+	height:11px;
+	background:url(../images/shared/icon-jp.jpg) no-repeat 0 0;
+	margin:10px 0 0 10px;
+	float:left;
+}
+#box-language ul li.iconJP{
+	width:52px;
+	height:12px;
+	background:url(../images/shared/icon-jp.jpg) no-repeat 0 1px;
+	float:left;
+}
+#box-tmb-video ul li .txtname{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	padding:30px 0 0 10px;
+
+}
+/*
+	Slideshow
+*/
+
+#banner-main  #slides {
+	position:absolute;
+	top:15px;
+	z-index:100;
+	background:#000;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:482px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:482px;
+	height:365px;
+	display:block;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:153px;
+	left:0px;
+	width:52px;
+	height:67px;
+	display:block;
+	z-index:101;
+	opacity:0.7;
+}
+
+#slides .next,#slides .prev:hover{
+	opacity:1;
+}
+
+#slides .next {
+	opacity:0.7;
+	left:430px;
+}
+#slides .next:hover{
+	left:430px;
+	opacity:1;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	float:right;
+	margin:0;
+	padding:14px;
+}
+.pagination li {
+	float:left;
+	margin:0;
+	padding:0 4px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:16px;
+	height:0;
+	padding-top:16px;
+	background-image:url(../images/bbschoolworld/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -17px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	width:208px;
+	height:61px;
+	z-index:500;
+	position:absolute;
+	left:-225px;
+	bottom:20px;
+	padding:8px 0 0 18px;
+	background:#FFF;	
+}
+.caption span{
+	width:100%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:17px;
+	color:#000;
+	float:left;
+}
+
+.caption .btn-watch{
+	width:65px;
+	height:24px;
+	float:left;
+}
+.caption .btn-watch a{
+	width:65px;
+	height:24px;
+	float:left;
+	background:url(../images/bbschoolworld/btn-watch.jpg) no-repeat 0 0;
+}
+.caption .btn-watch a:hover{
+	background:url(../images/bbschoolworld/btn-watch-o.jpg) no-repeat 0 0;
+}

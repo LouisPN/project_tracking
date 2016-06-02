@@ -1,0 +1,758 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("default.css");
+#col-left{
+	width:482px;
+	height:auto;
+	float:left;
+}
+#col-right{
+	width:236px;
+	height:auto;
+	float:left;
+	padding:0 0 0 20px;
+}
+#box-comment{
+	width:236px;
+	height:120px;
+	float:left;
+	padding: 20px 0 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position:relative;
+}
+
+#box-comment #slides {
+	position:absolute;
+	top:15px;
+	z-index:100;
+}
+
+#box-comment .slides_container {
+	width:236px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+
+#box-comment .slides_container div.slide {
+	width:236px;
+	height:120px;
+	display:block;
+}
+
+
+#box-comment #slides .next, #box-comment #slides .prev {
+	position:absolute;
+	top:-10px;
+	left:200px;
+	width:17px;
+	height:17px;
+	display:block;
+	z-index:101;
+	opacity:0.7;
+}
+
+#box-comment #slides .next, #box-comment #slides .prev:hover{
+	opacity:1;
+}
+
+#box-comment #slides .next {
+	opacity:0.7;
+	left:219px;
+}
+#box-comment #slides .next:hover{
+	left:219px;
+	opacity:1;
+}
+/*************************************************/
+#box-library{
+	width:236px;
+	margin:90px 0 0 0;
+	padding:40px 0 0 0;
+	float:left;
+	position:relative;
+	background:url(../images/home/idol.jpg) no-repeat top right;
+}
+#box-library span{
+	width:100%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	color:#000;
+	padding-bottom:5px;
+	border-bottom:#000 solid 4px;
+	float:left;
+}
+#box-library ul{
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:11px 0 0 0;
+}
+#box-library li{
+	width:236px;
+	height:80px;
+	margin:0;
+	padding:5px 0 0 0;
+	background:url(../images/shared/dot.gif) repeat-x bottom;
+	clear:both;
+}
+#box-library li a{
+	text-decoration:none;
+	color:#000;
+}
+#box-library li a:hover{
+	text-decoration:none;
+	color:#20afc0;
+}
+#box-library li .number{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:48px;
+	color:#ff8079;
+	float:left;
+	padding:0;
+	margin:0;
+}
+#box-library li a:hover .number {
+	color:#000;
+}
+#box-library li .tmb{
+	width:62px;
+	height:47px;
+	float:left;
+	padding:16px 0 0 0;
+}
+#box-library li .txt{
+	width:130px;
+	word-wrap:break-word;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	float:left;
+	padding:16px 0 0 10px;
+}
+#box-library #board{
+	width: 266px;
+	height: 273px;
+	position: absolute;
+	z-index: 50;
+	left: 270px;
+	top: 54px;
+}
+#banner-main {
+	width:738px;
+	height:417px;
+	padding: 10px 0px 20px 0;
+	float: left;
+	position:relative;
+}
+#signature{
+	width:482px;
+	height:107px;
+	float:left;
+}
+#box-comingsoon{
+	width:100%;
+	padding:0 0 0 0;
+	float:left;
+	position:relative;
+}
+#box-comingsoon span{
+	width:100%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	color:#ff8079;
+	border-bottom:#000 solid 4px;
+	float:left;
+}
+#box-comingsoon span a{
+	color:#ff8079;
+	float:left;
+}
+#box-comingsoon span a:hover{
+	color:#20afc0;
+}
+#box-comingsoon span .btn-viewall a{
+	width:86px;
+	height:24px;
+	float:right;
+	background:url(../images/home/btn-view-all.jpg) no-repeat 0 0;
+	margin:10px 0 8px 0;
+}
+#box-comingsoon span .btn-viewall a:hover{
+	background:url(../images/home/btn-view-all-o.jpg) no-repeat 0 0;
+}
+#box-comingsoon ul{
+	width:100%;
+	list-style:none;
+	margin:30px 0 0 0;
+	padding:0 0 0 10px;
+	float:left;
+}
+#box-comingsoon ul li{
+	width:98.7%;
+	padding:10px 0 10px 0;
+	border-bottom:#000000 dotted 1px;
+	float:left;
+}
+#box-comingsoon ul li div{
+	margin:0 10px 0 0;
+	padding:0 0 3px 0;
+	float:left;
+}
+#box-comingsoon ul li .calendar{
+	width:110px;
+	float:left;
+}
+#box-comingsoon ul li div .date{
+	font-family:tahoma;
+	font-size: 12px;
+	font-weight:800;
+	clear:both;
+}
+#box-comingsoon ul li div .month{
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 10px;
+	clear:both;
+}
+#box-comingsoon ul li div .location{
+	background:url(../images/home/icon-location.jpg) no-repeat 0 0;
+	font-family:tahoma;
+	font-size: 10px;
+	padding:0 0 0 12px;
+	color:#666;
+	clear:both;
+}
+#box-comingsoon ul li div .title{
+	width:360px;
+	font-family:tahoma;
+	font-size: 12px;
+	font-weight:800;
+	clear:both;
+}
+#box-comingsoon ul li div .details{
+	width:360px;
+	font-family:Arial;
+	font-size: 12px;
+	clear:both;
+}
+#box-comingsoon .box-content{
+	width:72.6%;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#box-comingsoon .box-content .language{
+	width:70px;
+	font-family:Arial;
+	font-size: 11px;
+	text-align:right;
+	position:absolute;
+	margin:0;
+	padding:0 3px;
+	right:80px;
+	bottom:3px;
+}
+/*#box-comingsoon ul li div ul.language{
+	width:100px;
+	position:absolute;
+	list-style:none;
+	margin:0;
+	padding:0;
+	right:80px;
+	bottom:-4px;
+}
+#box-comingsoon ul li div ul.language li{
+	width:16px;
+	padding:0 3px;
+	border:none;
+	float:right;
+}
+#box-comingsoon ul li div ul.language li a{
+	float:right;
+}*/
+#box-comingsoon .btn-details{
+	position:absolute;
+	list-style:none;
+	right:0;
+	bottom:6px;
+	margin:0 !important;
+	padding:0 !important;
+}
+#box-comingsoon .btn-details a{
+	width:72px;
+	height:24px;
+	background:url(../images/home/btn-details.jpg) no-repeat 0 0;
+	float:left;
+}
+#box-comingsoon .btn-details a:hover{
+	background:url(../images/home/btn-details-o.jpg) no-repeat 0 0;
+}
+#box-whyijoin{
+	width:482px;
+	padding:40px 0 0 0;
+	float:left;
+	position:relative;
+}
+#box-whyijoin span{
+	width:100%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	color:#ff8079;
+	padding-bottom:5px;
+	border-bottom:#000 solid 4px;
+	float:left;
+}
+#box-whyijoin span a{
+	color:#ff8079;
+}
+#box-whyijoin span a:hover{
+	color:#20afc0;
+}
+#box-whyijoin ul{
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:11px 0 0 10px;
+}
+#box-whyijoin li{
+	width:200px;
+	height:63px;
+	margin:0;
+	padding:15px 0 0 0;
+	background:url(../images/shared/dot.gif) repeat-x bottom;
+	clear:both;
+}
+#box-whyijoin li:hover{
+	cursor:pointer;
+	color:#20afc0;
+}
+#box-whyijoin li .tmb{
+	width:62px;
+	height:47px;
+	float:left;
+}
+#box-whyijoin li .txt{
+	width:110px;
+	word-wrap:break-word;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	float:left;
+	padding:0 0 0 10px;
+}
+#box-whyijoin #board{
+	width: 266px;
+	height: 273px;
+	position: absolute;
+	z-index: 50;
+	left: 216px;
+	top: 54px;
+}
+#box-whyijoin #board #caption{
+	width:186px;
+	height:46px;
+	position:absolute;
+	z-index:99;
+	background:url(../images/home/icon-bb.jpg) #FFF no-repeat 10px 15px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	right:0px;
+	padding:10px 0 0 40px;
+	line-height:1;
+	top:196px;
+}
+#box-whyijoin #board:hover{
+	cursor:pointer;
+	color:#20afc0
+}
+/****************************************************/
+#box-technique{
+	width:482px;
+	padding:40px 0 0 0;
+	float:left;
+	position:relative;
+}
+#box-technique span{
+	width:100%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	color:#ff8079;
+	padding-bottom:5px;
+	border-bottom:#000 solid 4px;
+	float:left;
+}
+#box-technique span a{
+	color:#ff8079;
+}
+#box-technique span a:hover{
+	color:#20afc0;
+}
+#box-technique ul{
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:11px 0 0 10px;
+}
+#box-technique li{
+	width:226px;
+	height:171px;
+	margin:0;
+	padding:15px 20px 0 0;
+	float:left;
+	position:relative;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+}
+#box-technique li +li{
+	width:226px;
+	height:171px;
+	margin:0;
+	padding:15px 0 0 0;
+	float:left;
+	position:relative;
+}
+#box-technique li:hover{
+	cursor:pointer;
+	color:#20afc0
+}
+#box-technique li .txt{
+	width: 187px;
+	height: 42px;
+	word-wrap:break-word;
+	margin: 0;
+	padding: 5px 0 5px 5px;
+	background: #FFF;
+	position: absolute;
+	z-index: 50;
+	left: 0px;
+	top: 134px;
+}
+/********************************************************/
+#box-product{
+	width:738px;
+	height:auto;
+	float:left;
+}
+#box-product{
+	width:738px;
+	height:auto;
+	float:left;
+}
+#box-product span{
+	width:100%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	color:#ff8079;
+	padding-bottom:5px;
+	border-bottom:#000 solid 4px;
+	float:left;
+}
+#box-product span a{
+	color:#ff8079;
+}
+#box-product span a:hover{
+	color:#20afc0;
+}
+#box-product ul{
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:20px 0 20px 0;
+	background:url(../images/shared/dot.gif) repeat-x 0 20px;
+}
+#box-product ul .title{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	color:#FFF;
+	background:#000;	
+	padding:5px;
+	margin:0 0 20px 0;
+	float:left;
+}
+#box-product li{
+	width:236px;
+	margin:0;
+	padding:5px 0;
+	background:url(../images/shared/dot.gif) repeat-x bottom;
+	font-family: Arial, Helvetica, sans-serif;
+	padding:5px 0 16px 0;
+	font-size: 16px;
+	clear:both;
+}
+#box-product li:hover{
+	cursor:pointer;
+	color:#20afc0
+}
+#box-product #img-product{
+	width:472px;
+	height:212px;
+	float:left;
+	padding:19px 0 0 17px;
+	position:relative;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+}
+#box-product #img-product .txt{
+	width: 187px;
+	height: 79px;
+	word-wrap:break-word;
+	margin: 0;
+	padding: 10px;
+	background: #FFF;
+	position: absolute;
+	z-index: 50;
+	left: 282px;
+	top: 104px;
+}
+#box-product #img-product .txt .btn-watch{
+	width:65px;
+	height:24px;
+	float:left;
+	margin-top:10px;
+}
+#box-product #img-product .txt .btn-watch a{
+	width:65px;
+	height:24px;
+	float:left;
+	background:url(../images/bbschoolworld/btn-watch.jpg) no-repeat 0 0;
+}
+#box-product #img-product .txt .btn-watch a:hover{
+	background:url(../images/bbschoolworld/btn-watch-o.jpg) no-repeat 0 0;
+}
+/****************************************************/
+#box-switch{
+	width:738px;
+	padding:40px 0 20px 0;
+	float:left;
+	background:url(../images/shared/dot.gif) repeat-x bottom;
+}
+#box-switch span{
+	width:100%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	color:#ff8079;
+	padding-bottom:5px;
+	border-bottom:#000 solid 4px;
+	float:left;
+}
+#box-switch span a{
+	color:#ff8079;
+}
+#box-switch span a:hover{
+	color:#20afc0;
+}
+#box-switch ul{
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:11px 10px;
+}
+#box-switch li{
+	width:226px;
+	height:171px;
+	margin:0;
+	padding:15px 20px 0 0;
+	float:left;
+	position:relative;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	color:#000;
+}
+#box-switch li + li + li{
+	width:226px;
+	height:171px;
+	margin:0;
+	padding:15px 0 0 0;
+	float:left;
+	position:relative;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	color:#000;
+}
+#box-switch li:hover{
+	cursor:pointer;
+	color:#20afc0
+}
+#box-switch li .txt{
+	width: 187px;
+	height: 42px;
+	margin: 0;
+	padding: 5px 0 5px 5px;
+	background: #FFF;
+	position: absolute;
+	z-index: 50;
+	left: 0px;
+	top: 134px;
+}
+/*
+	Slideshow
+*/
+
+#banner-main #slides {
+	position:absolute;
+	top:15px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+#banner-main .slides_container {
+	width:738px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+#banner-main .slides_container div.slide {
+	width:738px;
+	height:354px;
+	display:block;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#banner-main #slides .next, #banner-main #slides .prev {
+	position:absolute;
+	top:153px;
+	left:0px;
+	width:52px;
+	height:67px;
+	display:block;
+	z-index:101;
+	opacity:0.7;
+}
+
+#banner-main #slides .next, #banner-main #slides .prev:hover{
+	opacity:1;
+}
+
+#banner-main #slides .next {
+	opacity:0.7;
+	left:430px;
+}
+#banner-main #slides .next:hover{
+	left:430px;
+	opacity:1;
+}
+
+/*
+	Pagination
+*/
+
+#banner-main .pagination {
+	width:738px;
+	float:left;
+	margin:0;
+	padding:0;	
+	border-top:#000 solid 4px;
+}
+#banner-main .pagination li {
+	width:177px;
+	height:60px;
+	float:left;
+	margin:0 10px 0 0;
+	padding:0;
+	list-style:none;
+}
+#banner-main .pagination li:nth-child(4n) {
+	width:177px;
+	height:60px;
+	float:left;
+	margin:0 0 0 0;
+	padding:0;
+	list-style:none;
+}
+
+#banner-main .pagination li a {
+	background:#FFF;
+	display:block;
+	width:167px;
+	height:auto;
+	margin:0;
+	padding:5px 0 0 10px;
+	float:left;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	overflow:hidden;
+	color:#666666;
+	line-height:1;
+	/*border-top:#000 solid 4px;*/
+	text-decoration:none;
+}
+
+#banner-main .pagination li.current a {
+	border-top:#ff8079 solid 4px;
+	top:-20px;
+	color:#ff8079;
+	position:relative;
+	z-index:500;
+}
+
+/*
+	Caption
+*/
+
+#banner-main .caption {
+	width:326px;
+	height: auto;
+	line-height: 1.1;
+	z-index:500;
+	position:absolute;
+	right:-350px;
+	bottom:30px;
+	padding:8px 0 18px 18px;
+	background:#FFF;	
+}
+#banner-main .caption span{
+	width:95%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:32px;
+	color:#000;
+	padding:5px 0 10px 0;
+	margin:0;
+	line-height:0.8;
+	float:left;	
+}
+#banner-main .show{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:25px;
+	padding:0 10px;
+	background-color:#ff8079;
+	color:#fff;
+	float:left;
+	position:absolute;
+	top:-42px;
+	right:0;
+
+}
+
+.btn-watch{
+	width:65px;
+	height:24px;
+	float:left;
+}
+.btn-watch a{
+	width:65px;
+	height:24px;
+	float:left;
+	background:url(../images/bbschoolworld/btn-watch.jpg) no-repeat 0 0;
+}
+.btn-watch a:hover{
+	background:url(../images/bbschoolworld/btn-watch-o.jpg) no-repeat 0 0;
+}
